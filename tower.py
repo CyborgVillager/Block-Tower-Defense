@@ -692,7 +692,7 @@ class Tower():
             pos, pressed = pygame.mouse.get_pos(), pygame.mouse.get_pressed()
 
             #Drawing the amount of pops
-            gameDisplay.blit(font.render("Pops: " + str(shorten(self.pops)), True, (0, 0, 0)), (400, 485))
+            gameDisplay.blit(font.render("Score: " + str(shorten(self.pops)), True, (0, 0, 0)), (400, 485))
 
             #Sell button
             pygame.draw.rect(gameDisplay, (200, 0, 0), (400, 520, 100, 50), 0)
